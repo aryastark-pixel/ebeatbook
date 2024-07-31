@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -89,6 +90,7 @@ DATABASES = {
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
+# AUTH_USER_MODEL = 'bookapp.CustomUser'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
