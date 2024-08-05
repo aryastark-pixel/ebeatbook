@@ -44,3 +44,4 @@ class HotelAdmin(admin.ModelAdmin):
 
 # Register the Hotel model with the admin site
 admin.site.register(HotelsAndRestraunts, HotelAdmin)
+#new
